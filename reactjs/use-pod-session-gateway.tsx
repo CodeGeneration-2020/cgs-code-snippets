@@ -20,7 +20,7 @@ import type {
 	ConnectionReturn,
 } from './pod-session.types'
 
-export const usePodSessionGeteway = (): void => {
+export const usePodSessionGateway = (): void => {
 	const socketRef = React.useRef<Socket | null>(null,)
 
 	const [setAuth,] = useAuth((state,) => {
